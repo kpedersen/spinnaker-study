@@ -60,7 +60,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /slight-human(/|$)(.*)
                         backend:
                             serviceName: slight-human-microservice-service
                             servicePort: 30201
